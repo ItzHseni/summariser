@@ -14,7 +14,7 @@ token = os.getenv("discordToken")
 
 # List of Cogs
 cogs = [
-        'minpoint'
+        'summariser'
     ]
 
 # Bot Login Handler
