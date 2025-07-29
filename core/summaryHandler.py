@@ -33,6 +33,6 @@ async def getSummary(messageContent: str):
     )
 
     if response:
-        return response.content
+        return response.choices[0].message.content
     else:
         return "Sorry, I couldn't generate a summary at this time. Please try again later."
